@@ -22,7 +22,7 @@ public class MakeSleepActivity extends Activity {
 		}
     }
 	@Override
-	public void onPause() {
+	public void onResume() {
 		player.setLooping(false);
 		player.stop();
 	}
